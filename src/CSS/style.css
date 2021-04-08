@@ -1,0 +1,155 @@
+body, html {
+    background-color: 9ACD32;
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+ 
+ 
+  [class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+  }
+  
+  
+  header {
+    background-color: #907aa9;
+    color:#286983;
+    font-size: 25px;
+  }
+  
+  footer {
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:#c4a7e7;
+    background-color: #907aa9;
+    padding: 15px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  nav {
+    font-size: 35px;
+    color:#3e8fb0;
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 8px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color:#286983;
+  }
+  
+  a:visited {
+    color:#ea9d34;
+  }
+  
+  a:hover {
+    color:#eb6f92;
+  }
+  
+  .active {
+    background-color:#286983;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#286983;
+  } 
+  
+  .sidebar {
+    background-color:#907aa9;
+    color:#ea9d34;
+  }
+  
+  #sd {
+    background-color:#907aa9 ;
+  }
+  
+  ul {
+    font-size: 33px;
+    font-weight: bolder;
+    text-align: center;
+    list-style-type:none;
+  }
+  
+  .save {
+    font-size: 50px;
+  }
+  
+  .delete {
+    font-size: 50px;
+  }
+  
+  .note {
+    margin-right: 5px;
+  }
+  
+  #main {
+    background-color: #c4a7e7;
+  }
+  
+  .info {
+    display: flex;
+    background-color: #c4a7e7;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Notes {
+    text-align:center;
+    font-size: 60px;
+  }
+  
+  .openbtn {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  .closebtn {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:#286983;
+  }
+  
+  #t {
+    width:100%;
+    height:400px;
+  }
+  
+  @media only screen and (min-width: 680px) { 
+    .info {min-height: 78vh;}
+    .sidebar {min-height: 78vh;}
+    .openbtn {font-size: 75px;}
+    .closebtn {font-size: 75px;}
+    .save {font-size: 80px;}
+    .delete {font-size: 80px;}
+    .Notes {font-size: 85px;}
+    .col-1 {width: 8.33%;} 
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
