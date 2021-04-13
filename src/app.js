@@ -68,30 +68,3 @@ function balupdate(total) {
     balance.innerText =
     parseInt(mybudamt.innerText) - parseInt(total);
 }
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
