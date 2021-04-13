@@ -3,23 +3,73 @@
 <!DOCTYPE html>
 <HTML lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="..//CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <script defer src="./src/app.js"></script>
+
+
     <title>BudgetBuddy</title>
 </head>
 <body>
 
+    <header class="row">
+        <div class="col-12">
+            <h1>BudgetBuddy</h1>
+        </div>
+    </header>
+        
+
+   
+    
+        <div class="col-6 info">
+            <div class="text" id="BudgetInput">
+                <form action="" id="budnamamt">
+
+                    <label for="">Budget Name:</label><br>
+                    <input type="text" id="budname" name="Budget Name" value:""><br>
+
+                    <label for="">Budget Amount:</label><br>
+                    <input type="number" id="budamt" name="Budget Amount" value=""><br><br>
+                    <input type="submit" id="create" value="Create Budget"><br><br>
+                </form>
+
+                <h2>Expenses</h3><br>
+                <form action="" id="expinput">
+                    <label for="">Type:</label><br>
+                    <input type="text" id="type" name="Expense Type" value:""><br>
+                    <label for="text">Cost:</label><br>
+                    <input type="number" id="cost" name="Cost" value=""><br><br>
+                    <input type="submit" id="submit" value="Submit">
+                  </form>   
+            </div>
+        </div>
+        
+
+        <div class="col-6" id="Budget">
+            <h3> My Budget: $<span id="mybudamt">0</span></h3><br> 
+            <h4>Remaining Budget: $ <span id="balance">0</span></h4><br><br>
+        </div>
+        
+            <div class="col-6 expamthead">
+                <h4 id="Expense">Expense</h4>
+            
+
+                <h4 id="Amount">Amount</h4>
+            </div>
+                
+        
+         
 
 
 
 
-
-</div>
-    <footer>
-        <h3>Created by Jempire</h3>
+    <footer class="row">
+        <div class="col-12">
+        <h5>Created by Jempire</h5>
+        </div>
     </footer> 
 
 
